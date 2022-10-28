@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    border-bottom: 50vh;
+
+}
+.container{
+    max-width: 80vw;    /*  this is decide the page background size */
+    height: 13px;
+}
+.navbar li{
+ list-style: none;  /*   none krne se dot . chala jayega */
+ margin: 0 12px;  /*  isse home 1 2 ka distnace badhega */
+}
+.navbar {
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+.visit:hover{
+ background-color: royalblue;
+ border-radius: 30px;
+ border: 20vh;
+ box-shadow: 20px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
